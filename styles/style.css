@@ -273,6 +273,23 @@ header {
 .newsletter-input {
   color: white;
 }
+input#email {
+  width: 400px;
+  padding: 18px;
+  margin-top: 19px;
+  border-radius: 67px;
+  border: none;
+}
+.newsletter-input button {
+  padding: 16px 14px 18px 14px;
+  border-radius: 0px 67px 67px 0px;
+  margin-left: -41px;
+  background: red;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  border: none;
+}
 /* footer area */
 .footer {
   margin-top: 100px;
