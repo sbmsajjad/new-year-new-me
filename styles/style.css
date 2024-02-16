@@ -1,0 +1,316 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", "sans-serif";
+}
+/* lgobal styles */
+.primary-color {
+  color: red;
+}
+.btn-secondary {
+  padding: 20px 40px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+.btn-secondary a {
+  text-decoration: none;
+  color: white;
+}
+.btn-primary {
+  padding: 20px 40px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+}
+/* global styles end */
+header {
+  background-image: url("../images/hero-banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.hero-area {
+  margin-top: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
+.sub-title {
+  color: white;
+  font-size: 20px;
+}
+.hero-title {
+  font-weight: 700px;
+  font-size: 60px;
+  color: white;
+}
+/* flash sale area  */
+.flash-sale-area {
+  margin-top: -70px;
+}
+.flash-sale-content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.flash-sale-content > h2 {
+  font-size: 70px;
+  color: red;
+}
+.flash-sale-content > p {
+  font-size: 15px;
+  color: tomato;
+}
+.flash-sale-content > h3 {
+  font-size: 60px;
+}
+.new-year-promo-image img {
+  width: 800px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.new-year-promo-image {
+  display: flex;
+  justify-content: center;
+}
+/* flash sale area end */
+/* midnight party area */
+.new-year-midnight-party {
+  background-image: url("../images/midnight-party-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
+  max-width: 1300px;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+}
+.midnight-party-content {
+  width: 600px;
+  align-items: center;
+  color: white;
+  margin: 100px;
+}
+.midnight-party-content > h3 {
+  font-size: 70px;
+  font-weight: 800px;
+}
+.midnight-party-content > p {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.midnight-party-image {
+  margin-top: 80px;
+  align-items: center;
+}
+/* party place */
+.party-section {
+  width: 1300px;
+  margin: 0 auto;
+}
+.party-place {
+  text-align: center;
+  height: 400px;
+  background-color: #ffe3e3;
+  border-radius: 10px;
+  padding-top: 100px;
+}
+.party-place > p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.party-time-highlight {
+  color: red;
+}
+/* party place end */
+/* midnight party end */
+
+/* coming soon */
+.coming-soon {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.coming-soon-area {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.coming-soon-left-side-content {
+  max-width: 400px;
+  margin-right: 40px;
+}
+.coming-soon-middle-content {
+  max-width: 400px;
+  margin-right: 40px;
+  border: 20px solid red;
+  padding: 50px;
+  border-radius: 500px;
+}
+.comingsoon-right-side-content {
+  max-width: 400px;
+  margin-left: 40px;
+}
+.coming-soon-left-title {
+  font-size: 40px;
+}
+.coming-soon-right-title {
+  font-size: 60px;
+}
+/* coming soon end */
+
+/* holiday sale area  */
+.holiday-sale-area {
+  margin-top: 100px;
+}
+.holiday-subtitle {
+  font-size: 17px;
+  text-align: center;
+}
+.holiday-title {
+  font-size: 70px;
+  text-align: center;
+}
+.holiday-title-special-color {
+  color: red;
+}
+.holiday-mini-subtitle {
+  font-size: 15px;
+  text-align: center;
+}
+.holidday-model-area {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(../images/special-section-bottom-image.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 0px 0px 7px 0px;
+}
+.holidy-image {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.gift-box img {
+  height: 500px;
+  padding-top: 150px;
+}
+.fifty-percent-off img {
+  margin-top: -500px;
+  margin-left: -150px;
+}
+/* holiday sale area end */
+
+/* photo grid section */
+.portfolio {
+  max-width: 1200px;
+  text-align: start;
+  justify-content: center;
+  margin: 0 auto;
+}
+.portfolio-subtitle {
+  color: red;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.portfolio-title {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+.portfolio-mini-subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.photo-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+}
+
+/* the newsletter */
+.newsletter {
+  margin-top: 150px;
+}
+.the-newsletter {
+  background-color: #ffe3e3;
+  margin: 0 auto;
+  width: 1300px;
+  height: 600px;
+}
+.newsletter-image {
+  text-align: center;
+  padding: 50px 0px 50px;
+}
+.newsletter-content {
+  text-align: center;
+}
+.newsletter-title {
+  font-size: 55px;
+}
+.newsletter-subtitle {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.newsletter-input {
+  color: white;
+}
+/* footer area */
+.footer {
+  margin-top: 100px;
+  background-color: #000000;
+  height: 600px;
+}
+.contact-area {
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 0px 50px 0px;
+  border-bottom: 1px solid white;
+}
+.address-area {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media-area {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px solid white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.social-icons {
+  margin-right: 15px;
+}
+.social-icons img {
+  max-width: 50px;
+}
+.copyright {
+  padding-top: 50px;
+}
+.footer-credit {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
